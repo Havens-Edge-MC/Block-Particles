@@ -1,5 +1,5 @@
 name: BlockParticles
-authors: [BadBones69, Felux]
+authors: [GyztorMizirath, BadBones69, Felux]
 version: ${project.version}${build.number}
 main: me.badbones69.blockparticles.BlockParticles
 softdepend: [Multiverse-Core, MultiWorld, HeadDatabase]
