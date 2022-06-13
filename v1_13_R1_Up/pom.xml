@@ -15,7 +15,7 @@
         <dependency>
             <groupId>me.badbones69</groupId>
             <artifactId>blockparticles-api</artifactId>
-            <version>1.12</version>
+            <!--<version>1.12</version>-->
             <scope>compile</scope>
         </dependency>
         <dependency>
