@@ -7,7 +7,7 @@ import me.badbones69.blockparticles.api.objects.CustomFountain;
 import me.badbones69.blockparticles.api.objects.Particle;
 import me.badbones69.blockparticles.controllers.Fountains;
 import me.badbones69.blockparticles.controllers.ParticleControl;
-import me.badbones69.blockparticles.multisupport.NMS_v1_12_Down;
+//import me.badbones69.blockparticles.multisupport.NMS_v1_12_Down;
 import me.badbones69.blockparticles.multisupport.NMS_v1_13_Up;
 import me.badbones69.blockparticles.multisupport.Version;
 import org.bukkit.Bukkit;
@@ -37,7 +37,7 @@ public class ParticleManager {
     }
     
     public void load() {
-        particleControl = Version.getCurrentVersion().isNewer(Version.v1_12_R1) ? new NMS_v1_13_Up() : new NMS_v1_12_Down();
+        particleControl = Version.getCurrentVersion().isNewer(Version.v1_12_R1) ? new NMS_v1_13_Up(); //: new NMS_v1_12_Down();
         customFountains.clear();
         if (hasOldFiles()) {
             String prefix = fileManager.getPrefix();
