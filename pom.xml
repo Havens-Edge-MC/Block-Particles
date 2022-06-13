@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.badbones69</groupId>
-    <artifactId>blockparticles</artifactId>
+    <artifactId>blockparticles-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.12.1</version>
     <modules>
