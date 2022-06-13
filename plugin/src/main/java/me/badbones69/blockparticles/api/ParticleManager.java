@@ -37,7 +37,7 @@ public class ParticleManager {
     }
     
     public void load() {
-        particleControl = Version.getCurrentVersion().isNewer(Version.v1_12_R1) ? new NMS_v1_13_Up(); //: new NMS_v1_12_Down();
+        particleControl = Version.getCurrentVersion().isNewer(Version.v1_12_R1) ? new NMS_v1_13_Up() : new NMS_v1_13_Up();
         customFountains.clear();
         if (hasOldFiles()) {
             String prefix = fileManager.getPrefix();
