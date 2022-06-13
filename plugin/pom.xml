@@ -5,7 +5,7 @@
     <parent>
         <artifactId>blockparticles-parent</artifactId>
         <groupId>me.badbones69</groupId>
-        <version>${project.parent.version}</version>
+        <version>${project.version}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -28,7 +28,7 @@
         <dependency>
             <groupId>me.badbones69</groupId>
             <artifactId>blockparticles-api</artifactId>
-            <version>${project.parent.version}</version>
+            <<version>${project.version}</version>
             <type>jar</type>
             <scope>compile</scope>
             <optional>true</optional>
@@ -36,7 +36,7 @@
         <dependency>
             <groupId>me.badbones69</groupId>
             <artifactId>blockparticles-v1_13_R1_Up</artifactId>
-            <version>${project.parent.version}</version>
+            <version>${project.version}</version>
             <type>jar</type>
             <scope>compile</scope>
             <optional>true</optional>
@@ -44,7 +44,7 @@
         <dependency>
             <groupId>me.badbones69</groupId>
             <artifactId>blockparticles-v1_12_R1_Down</artifactId>
-            <version>${project.parent.version}</version>
+            <version>${project.version}</version>
             <type>jar</type>
             <scope>compile</scope>
             <optional>true</optional>
